@@ -8,7 +8,7 @@ layout: default
 # Day 1: Humble beginnings
 ###### 18.04.2023
 
-Hey, I'm Kole, a Software Engineer from Serbia/Switzerland and I'll be updating this blog regularly throughout my "gamedev journey". You know how it goes, you have an idea about a great game, you think about all these awesome, intricate systems, an amazing, never-before-told story, maybe even write somethin down, but then the inevitable happens - after creating Trello board, a git repo, a Discord channel and a ToDo list, you stop working on it and forget about it. I've been there, multiple times, so to try and make this time different, I've decided to start this dev blog alongside my work, to try and motivate me more to keep working regularly on the game. Lets see if this works.
+Hey, I'm Kole, a Software Engineer from Serbia/Switzerland and I'll be updating this blog regularly throughout my "gamedev journey". You know how it goes, you have an idea about a great game, you think about all these awesome, intricate systems, an amazing, never-before-told story, maybe even write something down, but then the inevitable happens - after creating Trello board, a git repo, a Discord channel and a ToDo list, you stop working on it and forget about it. I've been there, multiple times, so to try and make this time different, I've decided to start this dev blog alongside my work, to try and motivate me more to keep working regularly on the game. Lets see if this works.
 
 ## So whats the game about?
 
@@ -28,7 +28,7 @@ To actually start with some content for this one, here I'll list the things I've
 - Bought a melee combat system Asset on Epic Marketplace to get me started
 - Started going through the Combat asset
 
-Not surprisingly, the asset comes with tonnes of stuff I don't need, most of it being boilerplate RPG stuff but weirdly implemented, like an inventory system, quest system, item interaction etc. Thanks, but for now I just need the simple combat system. So I created a copy of it and started stripping of everything but the melee combat that I actually need. I ll be focusing now on trying to understand it in detail, so that I could extend it with my stuff.
+Not surprisingly, the asset comes with tonnes of stuff I don't need, most of it being boilerplate RPG stuff but weirdly implemented, like an inventory system, quest system, item interaction etc. Thanks, but for now I just need the simple combat system. So I created a copy of it and started stripping off everything but the melee combat that I actually need. I ll be focusing now on trying to understand it in detail, so that I could extend it with my stuff.
 
 And here it is, the first screenshot!
 
