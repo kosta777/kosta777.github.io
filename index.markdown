@@ -31,6 +31,6 @@ Not surprisingly, the asset comes with tonnes of stuff I don't need, most of it 
 
 And here it is, the first screenshot!
 
-![]({{site.url}}_images/1.png)
+![]({{site.url}}images/1.png)
 
 <hr>
