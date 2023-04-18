@@ -31,7 +31,6 @@ Not surprisingly, the asset comes with tonnes of stuff I don't need, most of it 
 
 And here it is, the first screenshot!
 
-![first screenshot](_images/1.png)
-
+<img src="{{site.baseurl | prepend: site.url}}_images/1.png" alt="First Screenshot">
 
 <hr>
