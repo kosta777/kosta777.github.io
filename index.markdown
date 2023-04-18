@@ -7,7 +7,7 @@ layout: default
 
 # Day 1: Humble beginnings
 
-Hey, I'm Kole, a Software Engineer from Serbia/Switzerland and I'll be updating this blog regularly throughout my "gamedev journey". You know how it goes, you have an idea about a great game, you think about all these awesome, intricate systems, an amazing, never-before-told story, maybe even write somethin down, but then the inevitable happens - after creatina trello board, a git repo, a discord channel and a todo list, you stop working on it and forget about it. I've been there, multiple times, so to try and make this time different, I've decided to start this dev blog alongside my work, to try and motivate me more to keep working regularly on the game. Lets see if this works.
+Hey, I'm Kole, a Software Engineer from Serbia/Switzerland and I'll be updating this blog regularly throughout my "gamedev journey". You know how it goes, you have an idea about a great game, you think about all these awesome, intricate systems, an amazing, never-before-told story, maybe even write somethin down, but then the inevitable happens - after creating Trello board, a git repo, a Discord channel and a ToDo list, you stop working on it and forget about it. I've been there, multiple times, so to try and make this time different, I've decided to start this dev blog alongside my work, to try and motivate me more to keep working regularly on the game. Lets see if this works.
 
 ## So whats the game about?
 
