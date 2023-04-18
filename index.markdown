@@ -5,20 +5,21 @@
 layout: default
 ---
 
-#H1 Day 1: Humble beginnings
+# H1 Day 1: Humble beginnings
 
 Hey, I'm Kole, a Software Engineer from Serbia/Switzerland and I'll be updating this blog regularly throughout my "gamedev journey". You know how it goes, you have an idea about a great game, you think about all these awesome, intricate systems, an amazing, never-before-told story, maybe even write somethin down, but then the inevitable happens - after creatina trello board, a git repo, a discord channel and a todo list, you stop working on it and forget about it. I've been there, multiple times, so to try and make this time different, I've decided to start this dev blog alongside my work, to try and motivate me more to keep working regularly on the game. Lets see if this works.
 
-#H3 So whats the game about?
+# H3 So whats the game about?
 
 The game is a Berserk inspired 3rd person RPG, or dare I say, a *soullike*. 
 
 *GASP*
 
-*Another soullike??* you say? Well yes, I reply in return, but *of course*, this one will be different, better, even though I will work on it only a few hours a week and have no experience in Unreal Engine and less than a year of experience in Game Dev in general. Trust me though, I have a feeling about this one.
+"*Another soullike??*", you say? Well yes, I reply in return, but *of course*, this one will be different, better, even though I will work on it only a few hours a week and have no experience in Unreal Engine and less than a year of experience in Game Dev in general. Trust me though, I have a feeling about this one.
 
+So far, I am calling it **Project Guts**.
 
-#H4 Setup work
+# H4 Setup work
 
 To actually start with some content for this one, here I'll list the things I've done for now:
 
