@@ -9,7 +9,7 @@ layout: default
 
 Hey, I'm Kole, a Software Engineer from Serbia/Switzerland and I'll be updating this blog regularly throughout my "gamedev journey". You know how it goes, you have an idea about a great game, you think about all these awesome, intricate systems, an amazing, never-before-told story, maybe even write somethin down, but then the inevitable happens - after creatina trello board, a git repo, a discord channel and a todo list, you stop working on it and forget about it. I've been there, multiple times, so to try and make this time different, I've decided to start this dev blog alongside my work, to try and motivate me more to keep working regularly on the game. Lets see if this works.
 
-### So whats the game about?
+## So whats the game about?
 
 The game is a Berserk inspired 3rd person RPG, or dare I say, a *soullike*. 
 
@@ -19,7 +19,7 @@ The game is a Berserk inspired 3rd person RPG, or dare I say, a *soullike*.
 
 So far, I am calling it **Project Guts**.
 
-#### Setup work
+## Setup work
 
 To actually start with some content for this one, here I'll list the things I've done for now:
 
