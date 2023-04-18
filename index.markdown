@@ -29,8 +29,9 @@ To actually start with some content for this one, here I'll list the things I've
 
 Not surprisingly, the asset comes with tonnes of stuff I don't need, most of it being boilerplate RPG stuff but weirdly implemented, like an inventory system, quest system, item interaction etc. Thanks, but for now I just need the simple combat system. So I created a copy of it and started stripping of everything but the melee combat that I actually need. I ll be focusing now on trying to understand it in detail, so that I could extend it with my stuff.
 
-And here it is!
+And here it is, the first screenshot!
 
 ![first screenshot](_images/1.png)
+
 
 <hr>
