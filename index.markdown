@@ -5,11 +5,11 @@
 layout: default
 ---
 
-# H1 Day 1: Humble beginnings
+# Day 1: Humble beginnings
 
 Hey, I'm Kole, a Software Engineer from Serbia/Switzerland and I'll be updating this blog regularly throughout my "gamedev journey". You know how it goes, you have an idea about a great game, you think about all these awesome, intricate systems, an amazing, never-before-told story, maybe even write somethin down, but then the inevitable happens - after creatina trello board, a git repo, a discord channel and a todo list, you stop working on it and forget about it. I've been there, multiple times, so to try and make this time different, I've decided to start this dev blog alongside my work, to try and motivate me more to keep working regularly on the game. Lets see if this works.
 
-# H3 So whats the game about?
+### So whats the game about?
 
 The game is a Berserk inspired 3rd person RPG, or dare I say, a *soullike*. 
 
@@ -19,7 +19,7 @@ The game is a Berserk inspired 3rd person RPG, or dare I say, a *soullike*.
 
 So far, I am calling it **Project Guts**.
 
-# H4 Setup work
+#### Setup work
 
 To actually start with some content for this one, here I'll list the things I've done for now:
 
@@ -28,3 +28,5 @@ To actually start with some content for this one, here I'll list the things I've
 - Started going through the Combat asset
 
 Not surprisingly, the asset comes with tones of stuff I don't need, most of it being boilerplate RPG stuff but weirdly implemented, like an inventory system, quest system, item interaction etc. Thanks, but for now I just need the simple combat system. So I created a copy of it and started stripping of everything but the melee combat that I actually need. I ll be focusing now on trying to understand it in detail, so that I could extend it with my stuff.
+
+<hr>
