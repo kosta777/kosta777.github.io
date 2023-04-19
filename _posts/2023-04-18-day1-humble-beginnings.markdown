@@ -2,7 +2,7 @@
 
 layout: post
 title: "Day 1: Humble beginnings"
-date: 18-04-2023
+date: 2023-04-18
 
 ---
 
