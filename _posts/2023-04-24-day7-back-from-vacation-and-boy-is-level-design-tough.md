@@ -19,6 +19,6 @@ To take a small break from the logic part, I thought it might be fun and relaxin
 
 Anyhow, here's another screenshot, this time of the demonstration level of the asset pack. Looks cool af not gonna lie.
 
-![]({{site.url}}images/7.1.png)
+![]({{site.url}}images/7.2.png)
 
 <hr>
