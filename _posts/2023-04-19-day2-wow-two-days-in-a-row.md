@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Day 2: Wow, two days in a row"
+title: "⚔️Day 2: Wow, two days in a row"
 date: 2023-04-19
 
 ---

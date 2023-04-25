@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Day 1: Humble beginnings"
+title: "⚔️Day 1: Humble beginnings"
 date: 2023-04-18
 
 ---

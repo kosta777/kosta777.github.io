@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Day 7: Back from vacation and boy is the level design hard"
+title: "⚔️Day 7: Back from vacation and boy is the level design hard"
 date: 2023-04-24
 
 ---
