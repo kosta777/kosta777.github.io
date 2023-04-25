@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "⛏️Day 8: A slight change of pace
+title: "⛏️Day 8: A slight change of pace"
 date: 2023-04-25
 
 ---
