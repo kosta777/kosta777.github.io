@@ -17,5 +17,5 @@ This one I am starting from scartch, and it does seem quite simple to set up a t
 
 ![]({{site.url}}images/8.1.png)
 
-Amazing, I know. Anyhow, not much time for it today, but will be continuing the work on this tomorrow!
+Amazing, I know. Anyhow, not much time for it today, but will be continuing the work on this tomorrow.
 <hr>
