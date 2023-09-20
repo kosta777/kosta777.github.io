@@ -16,8 +16,11 @@ How it works is as follows: each state has its own animation. What this means is
 
 //![]({{site.url}}images/post1/1.png)
 
+
 The condition for entering any state is a simple bool, and the condition for leaving it is said bool being set to false. That's pretty much it.
 Additionally, every state can follow any other state - as long as my FSM flow allows it. This way, I don't have to worry which state should have a transition to which other state during the setup of the animator - and why should I for a platformer 2D game? If I already need to implement the state flow logic in the code, why would I also be doing a criss-cross line minigame in the Animator - I believe setting up that logic once is enough.
+
+Actually, the animations could quite likely be driven straight from code without the need for this "spider-web" animator setup, but that's what you get after switching from non-states setup to states mid project and then try to rework the existing systems instead of reeimplementing from scratch what makes sense.
 
 Now, let's see how one can do this in Godot.
 
