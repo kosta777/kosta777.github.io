@@ -1,23 +1,22 @@
 ---
-title: My simple neovim starter setup (kickstart.nvim)
-description: I explain why and how I use kickstarter.nvim to quickly set up a minimal neovim install on new machines.
+title: Simple neovim starter setup (using kickstart.nvim)
+description: I explain how I'd use kickstart.nvim to quickly bootstrap an IMO minimal usable neovim setup.
 publishDate: 2025-08-04
 tags:
   - neovim
-  - configs/tools
 draft: false
 language: English
 comment: false
 heroImage:
   src: "./post1-banner.png"
 ---
-There have been many good write ups talking up *vim* and *neovim* that go in-depth on why and how using vim increases one's productivity and makes text editing enjoyable (e.g. a great one [here](https://www.ssp.sh/blog/why-using-neovim-data-engineer-and-writer-2023/) ). Instead of repeating that, here I'll give a quick overview on how I usually set up an (almost) minimal and easy-to-use **neovim** environment from scratch. 
+There have been many good write ups talking up *vim* and *neovim* that go in-depth on why and how using vim increases one's productivity and makes text editing enjoyable (e.g. a great one [here](https://www.ssp.sh/blog/why-using-neovim-data-engineer-and-writer-2023/) ). Instead of repeating that, here I'll give a quick overview on how I would set up an (almost) minimal and easy-to-use **neovim** environment from scratch. 
 
 I can't talk about minimal neovim setups without mentioning [LazyVim](https://www.lazyvim.org/). If you search online for tips on starting with neovim, you will likely get it recommended as an easy and a minimal starting point, which is exactly what happened to me as well. However, even though the plugins LazyVim's setup comes with are considered *essential* and the setup *minimal* by many veteran neovim users, I was not happy to start with a bunch of tools that I don't know anything about, and generally prefer an even more minimal setup that I can slowly extend with specific plugins that I need and understand.
 
 (Note: LazyVim is also a package manager that is actually quite easy to use, and we'll still be using that, just not LazyVim's suggested starting setup)
 
-So as an alternative to LazyVim on one end, and starting fully from scratch on another, I found [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), a project whose idea is to provide quite a minimal setup that can be a starting point for one's personal config. I like the fact that it comes with less plugins than many alternatives, and is easier to pick up and thus slowly understand how plugin management works. It is also superbly commented, comes with a tutorial that you can follow inside neovim and is all in all a joy to use.
+So as an alternative to LazyVim on one end, and starting fully from scratch on another, I found [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), a project whose idea is to provide quite a minimal setup that can be a starting point for one's personal config. I like the fact that it comes with less plugins than many alternatives, and is easier to pick up and thus slowly understand how plugin management works. It is also superbly commented, comes with a tutorial that you can follow inside neovim (try `:Tutor`) and is all-in-all a joy to use.
 
 
 # Installation
@@ -70,21 +69,47 @@ rm -rf ~/.config/nvim/.git && rm -rf ~/.config/nvim/.github
 nvim # (or just `vim` if you set up an alias)
 ```
 
-And that's it. You can already start using neovim with a `vim` alias, without caring too much about the *interactive* plugins. In case you want to start using neovim as more than just a text editor, I recommend going through the config file (under `~/.config/nvim/init.lua`), which should tell you how to use the plugins and which plugins you now have installed.
+And that's it. You can already start using neovim with a `vim` alias, without caring too much about the more *interactive* plugins. In case you want to start using neovim as more than just a text editor, I recommend going through the config file (under `~/.config/nvim/init.lua`), which should tell you how to use the plugins and which plugins you now have installed.
 
-## My essential edits to the starter config (~/.config/nvim/init.lua)
+## A few (imo) essential edits (~/.config/nvim/init.lua)
 
-1. Enable nerd font, if installed earlier:
+1. Install [`leap.nvim`](https://github.com/ggandor/leap.nvim)
+
+To me, this plugin alone is worth switching over from vim to neovim and is absolutely essential.
+It basically lets you jump with around 3 keystrokes to any location you currently see on the screen.
+
+```
+# Add this to your `init.lua` after other plugins (inside the `require('lazy').setup({` block
+{
+    'ggandor/leap.nvim',
+    enabled = true,
+    keys = {
+      { 's', mode = { 'n', 'x', 'o' }, desc = 'Leap Forward to' },
+      { 'S', mode = { 'n', 'x', 'o' }, desc = 'Leap Backward to' },
+      { 'gs', mode = { 'n', 'x', 'o' }, desc = 'Leap from Windows' },
+    },
+    config = function(_, opts)
+      local leap = require 'leap'
+      for k, v in pairs(opts) do
+        leap.opts[k] = v
+      end
+      leap.add_default_mappings(true)
+      vim.keymap.del({ 'x', 'o' }, 'x')
+      vim.keymap.del({ 'x', 'o' }, 'X')
+    end,
+  }
+```
+2. Enable nerd font, if installed earlier:
 ```
 # Change the existing line 
 vim.g.have_nerd_font = true
 ```
-2. Enable relative line numbers (to help with jumping):
+3. Enable relative line numbers (to help with jumping):
 ```
 # Uncomment line
 vim.o.relativenumber = true
 ```
-3. Enable showing the percentage of file before the current location of the cursor
+4. Enable showing the percentage of file before the current location of the cursor
 ```
 # Find this section in the `init.lua`:
 
@@ -97,13 +122,13 @@ statusline.section_location = function()
 return '%2l:%-2v %p%%'
 ```
 
-# What did we get with this setup?
+## Setup details
 
 Your leader key is `<space>` (used to interact with plugins).
 
 Your plugin manager is [lazy.nvim](https://github.com/folke/lazy.nvim).
 
-## Installed plugins:
+### Installed plugins list
 
 Here I'll list most of the plugins that you now have installed, with some quick info on what they do. I might write a separate post going over some more interesting ones and explaining how I use them. I'll update this page with links to those if and when it happens.
 

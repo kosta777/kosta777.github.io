@@ -46,7 +46,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       <Section title='About'>
         <p class='text-muted-foreground'>Hello world.</p>
         <p class='text-muted-foreground'>
-          I am a distributed systems software engineer who likes to fiddle with C++, terminal configurations and develop game prototypes.
+          I am a distributed systems software engineer who likes to fiddle with C++, terminal configurations and develop game prototypes. I'm also quite a Warhammer 40k nerd.
           Here I'll write about technical topics I find interesting, and sometimes about my hobbies or anything else that comes to mind.
         </p>
       </Section>
@@ -94,45 +94,36 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       />
     </Section> */
       }
-      {/* 
+			{
+			/*
       <Section title='Education'>
         <Card
           as='a'
           heading='Master of Science in Computer Science'
           subheading='ETH Zurich'
           date='August 2019 - June 2021'
+				>
+				</Card>
+	<Card
+          as='a'
+          heading='Bachelor of Science in Software Engineering'
+          subheading='University of Belgrade'
+          date='September 2015 - June 2019'
         >
         </Card>
       </Section>
+      */
       <Section title='Website List'>
         <div class='grid grid-cols-1 gap-3 sm:grid-cols-2'>
           <ProjectCard
-            href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-            heading='Lorem ipsum'
-            subheading='dolor sit amet, oratio ornatus explicari pro ex'
-            imagePath='/src/assets/projects/alex-tyson-2BAXJ7ha74s-unsplash.jpg'
-          />
-          <ProjectCard
-            href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-            heading='Lorem ipsum'
-            subheading='dolor sit amet, oratio ornatus explicari pro ex'
-            imagePath='/src/assets/projects/angelica-teran-Bk9hpaXHK4o-unsplash.jpg'
-          />
-          <ProjectCard
-            href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-            heading='Lorem ipsum'
-            subheading='dolor sit amet, oratio ornatus explicari pro ex'
-            imagePath='/src/assets/projects/kseniia-zapiatkina-yATU3rg8tNI-unsplash.jpg'
-          />
-          <ProjectCard
-            href='/projects'
-            heading='More projects'
-            subheading='Check out more projects'
-            imagePath='/src/assets/projects/wen-qiao-g_w8I64FiO0-unsplash.jpg'
+            href='https://github.com/kosta777'
+		heading='GitHub'
+		subheading='Code and stuff'
+		imagePath='/src/assets/projects/github.jpg'
           />
         </div>
       </Section>
-
+/*
       <Section title='Certifications'>
         <Card
           as='a'
@@ -147,10 +138,9 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
         <SkillLayout title='Languages' skills={languages} />
         <SkillLayout title='Frontend' skills={frontend} />
         <SkillLayout title='Backend' skills={backend} />
-      </Section>
-      */
+</Section>
+*/
     }
     </div>
-    <Quote class='mt-12' />
   </main>
 </PageLayout>
