@@ -19,7 +19,7 @@ I can't talk about minimal neovim setups without mentioning [LazyVim](https://ww
 So as an alternative to LazyVim on one end, and starting fully from scratch on another, I found [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), a project whose idea is to provide quite a minimal setup that can be a starting point for one's personal config. I like the fact that it comes with less plugins than many alternatives, and is easier to pick up and thus slowly understand how plugin management works. It is also superbly commented, comes with a tutorial that you can follow inside neovim (try `:Tutor`) and is all-in-all a joy to use.
 
 
-# Installation
+## Installation
 
 Here's how to quickly set it up (assuming you are on a Debian based OS, otherwise finding your OS alternative shouldn't be hard).
 
@@ -34,7 +34,7 @@ alias vim='nvimalias vim='nvim''
 ```
 
 
-## Install external dependencies
+### Install external dependencies
 
 
 ```
@@ -71,7 +71,7 @@ nvim # (or just `vim` if you set up an alias)
 
 And that's it. You can already start using neovim with a `vim` alias, without caring too much about the more *interactive* plugins. In case you want to start using neovim as more than just a text editor, I recommend going through the config file (under `~/.config/nvim/init.lua`), which should tell you how to use the plugins and which plugins you now have installed.
 
-## A few (imo) essential edits (~/.config/nvim/init.lua)
+### A few (imo) essential edits (~/.config/nvim/init.lua)
 
 1. Install [`leap.nvim`](https://github.com/ggandor/leap.nvim)
 
@@ -128,7 +128,7 @@ Your leader key is `<space>` (used to interact with plugins).
 
 Your plugin manager is [lazy.nvim](https://github.com/folke/lazy.nvim).
 
-### Installed plugins list
+#### Installed plugins list
 
 Here I'll list most of the plugins that you now have installed, with some quick info on what they do. I might write a separate post going over some more interesting ones and explaining how I use them. I'll update this page with links to those if and when it happens.
 
